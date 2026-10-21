@@ -1,0 +1,5 @@
+services:
+  board:
+    image: ghcr.io/devops-fikri/ship-dashboard:latest
+    ports:
+      - "80:3000"
